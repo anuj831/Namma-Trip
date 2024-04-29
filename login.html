@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Namma Trip Tour and Travels</title>
+<script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="main.css">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 500px;
+        margin: 50px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    }
+
+    input[type=text], input[type=email], input[type=password] {
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+    .form-title {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .form-link {
+        text-align: center;
+    }
+
+    @media screen and (max-width: 600px) {
+        .container {
+            width: 90%;
+        }
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h2 class="form-title">Login Form</h2>
+    <form action="/login" method="POST">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="Your username.." required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Your password.." required>
+
+        <button type="submit">Login</button>
+    </form>
+    <p class="form-link">Don't have an account? <a href="register.html">Register here</a>.</p>
+</div>
+ <!-- footer -->
+ <footer class = "footer">
+    <div class = "footer-container">
+        <div>
+            <h2>About Us </h2>
+            <p>We are a adventure Travel Company, aim to show you nice people the most beautiful and pristine place in karnataka.</p>
+            <ul class = "social-icons">
+                <li class = "flex">
+                    <i class = "fa fa-twitter fa-2x"></i>
+                </li>
+                <li class = "flex">
+                    <i class = "fa fa-facebook fa-2x"></i>
+                </li>
+                <li class = "flex">
+                    <i class = "fa fa-instagram fa-2x"></i>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>Destiniation</h2>
+            <a href = "#">Long Weekend Gateways</a>
+            <a href = "#">Corporate Outing</a>
+            <a href = "#">Instituitional Outing</a>
+            <a href = "#">Local Experience</a>
+            <a href = "#">Night Camping</a>
+            <a href = "#">Sunrise Treks</a>
+
+        </div>
+
+        <div>
+            <h2>Our Company</h2>
+            <a href = "index.html">Home</a>
+            <a href = "#">About Us</a>
+            <a href = "#">Contact Us</a>
+            <a href = "#">Career</a>
+            <a href = "#">Blog</a>
+            <a href = "#">Privacy Policy</a>
+        </div>
+
+        <div>
+            <h2>Connect With Us</h2>
+            <div class = "contact-item">
+                <span>
+                    <i class = "fas fa-map-marker-alt"></i>
+                </span>
+                <span>
+                    Basaveswara Temple, Near Double Road, BEML 3rd Stage, Gattigere, Rajarajeshwari Nagar, Bengaluru, Karnataka 560098
+                </span>
+            </div>
+            <div class = "contact-item">
+                <span>
+                    <i class = "fas fa-phone-alt"></i>
+                </span>
+                <span>
+                    +919632996995
+                </span>
+            </div>
+            <div class = "contact-item">
+                <span>
+                    <i class = "fas fa-envelope"></i>
+                </span>
+                <span>
+                    info@domain.com
+                </span>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- end of footer -->
+
+</body>
+</html>
